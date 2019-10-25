@@ -1,4 +1,3 @@
-
 tacocloud:
   api:
     url: http://localhost:8080
