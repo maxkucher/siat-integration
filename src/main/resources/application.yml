@@ -1,3 +1,4 @@
+
 tacocloud:
   api:
     url: http://localhost:8080
@@ -9,3 +10,6 @@ tacocloud:
     poll-rate: 10000
 server:
   port: 8081
+spring:
+  main:
+    web-application-type: none
