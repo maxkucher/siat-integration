@@ -2,6 +2,7 @@ package com.maxkuchersiat.integration.integration;
 
 
 import com.maxkuchersiat.integration.configs.ApiProperties;
+import com.maxkuchersiat.integration.dto.OrderIntegrationDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.integration.handler.GenericHandler;
 import org.springframework.messaging.MessageHeaders;

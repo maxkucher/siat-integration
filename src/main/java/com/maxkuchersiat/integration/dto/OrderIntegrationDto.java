@@ -1,4 +1,4 @@
-package com.maxkuchersiat.integration.integration;
+package com.maxkuchersiat.integration.dto;
 
 import lombok.Data;
 

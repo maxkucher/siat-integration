@@ -1,4 +1,4 @@
-package com.maxkuchersiat.integration.integration;
+package com.maxkuchersiat.integration.dto;
 
 
 import lombok.Data;
@@ -19,5 +19,5 @@ public class TacoDto {
     private String name;
 
     @Size(min = 1, message = "You must choose at least 1 ingredient")
-    private List<Ingredient> ingredients = new ArrayList<>();
+    private List<IngredientDto> ingredients = new ArrayList<>();
 }

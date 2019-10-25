@@ -1,6 +1,7 @@
 package com.maxkuchersiat.integration.integration;
 
 import com.maxkucher.springinactiontutorial.domains.Order;
+import com.maxkuchersiat.integration.dto.OrderIntegrationDto;
 import org.springframework.integration.mail.transformer.AbstractMailMessageTransformer;
 import org.springframework.integration.support.AbstractIntegrationMessageBuilder;
 import org.springframework.integration.support.MessageBuilder;
